@@ -9,6 +9,7 @@
         <Label Content="" x:Name="TokenDisplay" HorizontalAlignment="Left" Margin="10,63,0,0" VerticalAlignment="Top" Width="Auto"/>
         <Label Content="" x:Name="Response" HorizontalAlignment="Left" Margin="10,89,0,0" VerticalAlignment="Top" MinHeight="200" MinWidth="460" Height="Auto" Width="Auto" Background="Black" Foreground="White"/>
         <Label Content="Expiration" x:Name="Expiration" HorizontalAlignment="Left" Margin="57,37,0,0" VerticalAlignment="Top" Width="161"/>
+        <Button Content="Refresh Token" HorizontalAlignment="Left" Margin="196,10,0,0" VerticalAlignment="Top" Width="96" Click="Button_Click_2"/>
 
     </Grid>
 </Window>

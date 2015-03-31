@@ -83,6 +83,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="APIErrorHandler.cs" />
     <Compile Include="DetailsController.cs" />
     <Compile Include="Model\Detail.cs" />
     <Compile Include="Model\Token.cs" />
@@ -90,6 +91,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SimpleAuthorizationServerProvider.cs" />
+    <Compile Include="SimpleRefreshTokenProvider.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="WhoIamController.cs" />
   </ItemGroup>

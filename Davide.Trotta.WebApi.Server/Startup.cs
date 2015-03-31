@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 using System.Web.Http;
+using System.Web.Http.ExceptionHandling;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.OAuth;
@@ -22,7 +23,7 @@ namespace Davide.Trotta.WebApi.Server
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }                
             );
-
+            config.Services.Replace(typeof(IExceptionHandler), new APIErrorHandler());
            
 
             app.UseCors(Microsoft.Owin.Cors.CorsOptions.AllowAll);
@@ -36,9 +37,9 @@ namespace Davide.Trotta.WebApi.Server
             {
                 AllowInsecureHttp = true,
                 TokenEndpointPath = new PathString("/token"),
-                AccessTokenExpireTimeSpan = TimeSpan.FromSeconds(20),
-                Provider = new SimpleAuthorizationServerProvider()
-                
+                AccessTokenExpireTimeSpan = TimeSpan.FromSeconds(15),
+                Provider = new SimpleAuthorizationServerProvider(),
+                RefreshTokenProvider = new SimpleRefreshTokenProvider()
             };
 
             // Token Generation

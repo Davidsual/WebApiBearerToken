@@ -39,6 +39,30 @@ namespace Davide.Trotta.WebApi.Client
         {
             get { return ConfigurationManager.AppSettings["WhoIAmUrl"]; }
         }
+
+
+        public async Task<Token> GetRefreshTokenAsync(Token token)
+        {
+
+            using (var client = new HttpClient())
+            {
+                client.DefaultRequestHeaders.Accept.Clear();
+                var authorizationHeader = Convert.ToBase64String(Encoding.UTF8.GetBytes(string.Format("{0}:{1}", ClientId, ClientSecret)));
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Basic", authorizationHeader);
+
+                var form = new Dictionary<string, string>  
+                {  
+                   {"grant_type", "refresh_token"},
+                   {"refresh_token", token.RefreshToken}  
+                };
+
+                var tokenResponse = await client.PostAsync(TokenUrl, new FormUrlEncodedContent(form));
+
+                return await tokenResponse.Content.ReadAsAsync<Token>(new[] { new JsonMediaTypeFormatter() });
+            }
+
+        }
+
         public async Task<Token> GetTokenAsync()
         {
 
@@ -61,7 +85,7 @@ namespace Davide.Trotta.WebApi.Client
 
         }
 
-        public async Task<string> WhoIAm(Token token)
+        public async Task<string> WhoIAmAsync(Token token)
         {
             using (var client = new HttpClient())
             {

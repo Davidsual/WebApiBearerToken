@@ -39,9 +39,17 @@ namespace Davide.Trotta.WebApi.Client
 
         private async void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            string result = await _serviceRest.WhoIAm(Token);
+            string result = await _serviceRest.WhoIAmAsync(Token);
 
             this.Response.Content = JsonConvert.SerializeObject(result, Formatting.Indented); ;
+        }
+
+        private async void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            Token = await _serviceRest.GetRefreshTokenAsync(Token);
+
+            this.TokenDisplay.Content = Token.AccessToken;
+            this.Expiration.Content = string.Format("Expire in: {0}", Token.ExpiresIn);
         }
 
 

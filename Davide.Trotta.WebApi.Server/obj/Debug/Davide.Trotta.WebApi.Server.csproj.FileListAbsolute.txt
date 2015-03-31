@@ -52,6 +52,6 @@ C:\Users\Davide\Documents\GitHub\Web Api\Bearer\Davide.Trotta.WebApi.Server\bin\
 C:\Users\Davide\Documents\GitHub\Web Api\Bearer\Davide.Trotta.WebApi.Server\bin\Debug\System.Net.Http.Formatting.xml
 C:\Users\Davide\Documents\GitHub\Web Api\Bearer\Davide.Trotta.WebApi.Server\bin\Debug\System.Web.Http.xml
 C:\Users\Davide\Documents\GitHub\Web Api\Bearer\Davide.Trotta.WebApi.Server\bin\Debug\System.Web.Http.Owin.xml
-C:\Users\Davide\Documents\GitHub\Web Api\Bearer\Davide.Trotta.WebApi.Server\obj\Debug\Davide.Trotta.WebApi.Server.csprojResolveAssemblyReference.cache
 C:\Users\Davide\Documents\GitHub\Web Api\Bearer\Davide.Trotta.WebApi.Server\obj\Debug\Davide.Trotta.WebApi.Server.exe
 C:\Users\Davide\Documents\GitHub\Web Api\Bearer\Davide.Trotta.WebApi.Server\obj\Debug\Davide.Trotta.WebApi.Server.pdb
+C:\Users\Davide\Documents\GitHub\Web Api\Bearer\Davide.Trotta.WebApi.Server\obj\Debug\Davide.Trotta.WebApi.Server.csprojResolveAssemblyReference.cache
