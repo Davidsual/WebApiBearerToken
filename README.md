@@ -58,3 +58,19 @@ for each request.
 
         }
     }
+
+
+    [Authorize]
+    public class WhoIamController : ApiController
+    {
+        [Route("api/WhoIAm")]
+        public WhoIam Get()
+        {
+            var userName = User.Identity.Name;
+            var claimsIdentity = (ClaimsIdentity)User.Identity;
+            var allClaims = claimsIdentity.Claims.ToList();
+            
+            
+            
+<b>TODO:</b>
+Introduce concept of Refresh token
