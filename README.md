@@ -1,6 +1,6 @@
-Web Api 2 Self Host + OWIN and Bearer Token Authentication
+<b>Web Api 2 Self Host + OWIN and Bearer Token Authentication</b>
 
-A bear bone implementation for understanding the web.api 2 self host + OWIN + Bearer Token Authentication.
+A bearbone implementation for understanding the web.api 2 self host + OWIN + Bearer Token Authentication.
 
 Important understand how generate claims (hardcoded in Token) and how to read the claims that the client will transmit to server
 for each request.
