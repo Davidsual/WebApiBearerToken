@@ -53,14 +53,6 @@ namespace Davide.Trotta.WebApi.Server
             context.OwinContext.Response.Headers.Add("Access-Control-Allow-Origin", new[] { "*" });
             context.OwinContext.Response.Headers.Add("Access-Control-Allow-Headers", new[] { "Content-Type" });
 
-
-            //var identity = new ClaimsIdentity(context.Options.AuthenticationType);
-            //identity.AddClaim(new Claim("sub", context.UserName));
-            //identity.AddClaim(new Claim("role", "user"));
-            //identity.AddClaim(new Claim(ClaimTypes.Name, "sachaAndDavide"));
-            //context.Validated(identity);
-
-
             if (context.UserName == "Pussy" && context.Password == "Cat")
             {
                 var identity = new ClaimsIdentity(context.Options.AuthenticationType);
