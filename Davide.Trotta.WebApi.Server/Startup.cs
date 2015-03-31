@@ -36,7 +36,7 @@ namespace Davide.Trotta.WebApi.Server
             {
                 AllowInsecureHttp = true,
                 TokenEndpointPath = new PathString("/token"),
-                AccessTokenExpireTimeSpan = TimeSpan.FromDays(1),
+                AccessTokenExpireTimeSpan = TimeSpan.FromSeconds(20),
                 Provider = new SimpleAuthorizationServerProvider()
                 
             };
