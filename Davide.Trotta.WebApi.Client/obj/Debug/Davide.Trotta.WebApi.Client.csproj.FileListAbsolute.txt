@@ -1,0 +1,1 @@
+C:\Users\Davide\Documents\GitHub\Web Api\Bearer Token\Davide.Trotta.WebApi.Client\bin\Debug\Davide.Trotta.WebApi.Client.exe.config
