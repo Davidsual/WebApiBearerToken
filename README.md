@@ -1,4 +1,4 @@
-Web Api 2 Self Hosted and Bearer Token Authentication
+Web Api 2 Self Host + OWIN and Bearer Token Authentication
 
 A bear bone implementation for understanding the web.api 2 self host + OWIN + Bearer Token Authentication.
 
