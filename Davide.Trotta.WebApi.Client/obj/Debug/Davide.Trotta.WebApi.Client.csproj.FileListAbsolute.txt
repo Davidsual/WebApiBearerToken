@@ -1,1 +1,16 @@
 C:\Users\Davide\Documents\GitHub\Web Api\Bearer Token\Davide.Trotta.WebApi.Client\bin\Debug\Davide.Trotta.WebApi.Client.exe.config
+C:\Users\Davide\Documents\GitHub\Web Api\Bearer\Davide.Trotta.WebApi.Client\bin\Debug\Davide.Trotta.WebApi.Client.exe.config
+C:\Users\Davide\Documents\GitHub\Web Api\Bearer\Davide.Trotta.WebApi.Client\bin\Debug\Davide.Trotta.WebApi.Client.exe
+C:\Users\Davide\Documents\GitHub\Web Api\Bearer\Davide.Trotta.WebApi.Client\bin\Debug\Davide.Trotta.WebApi.Client.pdb
+C:\Users\Davide\Documents\GitHub\Web Api\Bearer\Davide.Trotta.WebApi.Client\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Davide\Documents\GitHub\Web Api\Bearer\Davide.Trotta.WebApi.Client\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Davide\Documents\GitHub\Web Api\Bearer\Davide.Trotta.WebApi.Client\obj\Debug\Davide.Trotta.WebApi.Client.csprojResolveAssemblyReference.cache
+C:\Users\Davide\Documents\GitHub\Web Api\Bearer\Davide.Trotta.WebApi.Client\obj\Debug\MainWindow.baml
+C:\Users\Davide\Documents\GitHub\Web Api\Bearer\Davide.Trotta.WebApi.Client\obj\Debug\MainWindow.g.cs
+C:\Users\Davide\Documents\GitHub\Web Api\Bearer\Davide.Trotta.WebApi.Client\obj\Debug\App.g.cs
+C:\Users\Davide\Documents\GitHub\Web Api\Bearer\Davide.Trotta.WebApi.Client\obj\Debug\Davide.Trotta.WebApi.Client_MarkupCompile.cache
+C:\Users\Davide\Documents\GitHub\Web Api\Bearer\Davide.Trotta.WebApi.Client\obj\Debug\Davide.Trotta.WebApi.Client.g.resources
+C:\Users\Davide\Documents\GitHub\Web Api\Bearer\Davide.Trotta.WebApi.Client\obj\Debug\Davide.Trotta.WebApi.Client.Properties.Resources.resources
+C:\Users\Davide\Documents\GitHub\Web Api\Bearer\Davide.Trotta.WebApi.Client\obj\Debug\Davide.Trotta.WebApi.Client.csproj.GenerateResource.Cache
+C:\Users\Davide\Documents\GitHub\Web Api\Bearer\Davide.Trotta.WebApi.Client\obj\Debug\Davide.Trotta.WebApi.Client.exe
+C:\Users\Davide\Documents\GitHub\Web Api\Bearer\Davide.Trotta.WebApi.Client\obj\Debug\Davide.Trotta.WebApi.Client.pdb
