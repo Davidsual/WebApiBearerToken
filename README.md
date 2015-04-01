@@ -72,5 +72,5 @@ for each request.
             
             
             
-<b>TODO:</b>
-Introduce concept of Refresh token
+<b>+ Refresh token support</b>
+
